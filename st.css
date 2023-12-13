@@ -422,7 +422,9 @@ footer {
   overflow: hidden;
   
 }
-
+.feedback{
+  width: auto;
+}
 section {
   display: flex;
   flex-direction: column;
