@@ -121,8 +121,10 @@ span :hover{
   margin-left: 45px;
 }
 .ellipse:hover{
-  transform: scale(0.952);
+  transform: scale(0.852);
   transition: 0.9s;
+
+
 }
 .ap_text{
   padding-left: 25px;
@@ -442,3 +444,4 @@ section {
     gap: 20px;
   }
 }
+
