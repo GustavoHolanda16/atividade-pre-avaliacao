@@ -113,8 +113,10 @@ span :hover{
 .ap {
   padding: 25px;
   border-bottom: solid #FE4100;
+
   
 }
+
 .ellipse{
   clip-path: polygon(0% 0%, 87% 0%, 100% 50%, 87% 100%, 0% 100%);
   width: 500px;
@@ -329,18 +331,6 @@ label, input{
   }
 }
 
-/* CSS para celulares */
-@media (max-width: 480px) {
-  body {
-    width: 100%;
-  }
-  .navbar {
-    flex-direction: column;
-  }
-  .navbar_h {
-    flex-direction: column;
-  }
-}
 .feedbaks{
   width: 100%;
 }
@@ -435,7 +425,9 @@ section {
   width: 100%;
 }
 
+
 @media (width > 420px) {
+  
   section {
     align-items: center;
     padding-left: 0;
@@ -444,6 +436,64 @@ section {
 
   .links {
     gap: 20px;
+  }
+}
+@media only screen and (max-width: 700px){
+  body{
+    width: 90%;
+    margin: auto;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar_h{
+    display: flex;
+    flex-direction: column;
+  }
+  .ap_text{
+    width: 100%;
+    padding: 0;
+  }
+  .ap_text p{
+    font-size: 15px;
+    padding: 0;
+  }
+  .img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ellipse{
+    transform: scale(.6);
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 50% 100%, 0 81%);
+    padding: 0;
+    margin: 0;
+  }
+  .servicos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .servico{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contato{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .forms{
+    justify-content: center;
+    align-items: center;
+  }
+  footer{
+    width: 100%;
   }
 }
 
